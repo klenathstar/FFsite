@@ -1,48 +1,43 @@
-var attack
-var magic
-var items
-var run
-var goblin = {
+var goblin = [
     hp = 100,
     mp = 20,
     str = 10,
     mag = 10,
     spd = 10,
     def = 10
-}
-var ifrit = {
+]
+var ifrit = [
     hp = 100,
     mp = 20,
     str = 10,
     mag = 10,
     spd = 10,
     def = 10
-}
-var bahamut = {
+]
+var bahamut = [
     hp = 100,
     mp = 20,
     str = 10,
     mag = 10,
     spd = 10,
     def = 10
-}
-var leviathan = {
+]
+var leviathan = [
     hp = 100,
     mp = 20,
     str = 10,
     mag = 10,
     spd = 10,
     def = 10
-}
-var shiva = {
+]
+var shiva = [
     hp = 100,
     mp = 20,
     str = 10,
     mag = 10,
     spd = 10,
     def = 10
-}
-var items
+]
 
 //attack functions
 function fight(char, action) {
@@ -89,6 +84,8 @@ function hermesConsume(char) {
         hermes--;
     }
 }
+
+document.getElementById(attackBtn).addEventListener("click", atk1);
 
 function atk1(id) {
     id.innerHTML = "BONK";
