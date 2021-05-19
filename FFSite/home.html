@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frinal Frantasea</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <div id="container">
+        <div class="cont-item" id="item2"><img src="photos/background1.png" width="100%" height="600"></div>
+        <div class="cont-item" id="item1">Shiva used Ice Blast</div>
+        <div class="cont-item" id="item3">Bunger<br>
+            Bunger<br>
+            Bunger<br>
+            Bunger<br>
+        </div>
+        <div class="cont-item" id="item4">Ifrit<br>
+            Bahamut<br>
+            Leviathan<br>
+            Shiva
+        </div>
+        <div class="cont-item" id="item5">
+            <button id="attackBtn" type="button" onclick="atk1(this)">Attack</button><br>
+            <button id="magicBtn" type="button">Magic</button><br>
+            <button id="itemsBtn" type="button">Items</button><br>
+            <button id="runBtn" type="button">Run</button>
+        </div>
+    </div>
+    <div id="container2">
+        <img id="bunger" src="photos/bunger2.png" alt="bunger1" width="150px" height="150px">
+        <img id="bunger2" src="photos/bunger2.png" alt="bunger2" width="150px" height="150px">
+        <img id="bunger3" src="photos/bunger2.png" alt="bunger3" width="150px" height="150px">
+        <img id="bunger4" src="photos/bunger2.png" alt="bunger4" width="150px" height="150px">
+    </div>
+</body>
+<script>
+    function atk1(id) {
+        id.innerHTML = "BONK";
+    }
+</script>
+<script src="js/style.js"></script>
+</html>
